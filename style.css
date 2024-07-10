@@ -75,7 +75,9 @@ button{
 }
 main{
     width: 1140px;
+    margin: top 130px;
     margin: 0 auto;
+    margin-bottom: 130px;
 }
 .section-container{
     width: 1140px;
@@ -85,8 +87,10 @@ main{
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
+    gap: 20px;
     border-radius: 10px;
-    padding: 80px 97px 0 97px; ;
+    padding: 80px 97px 0 97px;
+    text-align: center; 
 }
 .section-title{
     font-size: 37px;
@@ -99,6 +103,41 @@ align-items: center;
 
     
 }
-.section-description{
+.section2-description{
     font-size: 18px;
+    padding: 30px;
+}
+.section3-description{
+    font-size: 18px;
+    padding: 30px;
+}
+.targets-container{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    margin-bottom: 111px;
+
+
+}
+.target1{
+    background-color: antiquewhite;
+}
+.target2{
+    background-color:aqua;
+}
+.target3{
+    background-color:lemonchiffon;
+}
+.targets{
+    padding: 40px;
+    border-radius: 16px;
+    margin: 0px 24px;
+    
+}
+.nexttarget-container{
+    gap:30px;
+}
+.t1 t2 t3{
+    border-radius: 16px;
+    padding: 40px;
 }
