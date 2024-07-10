@@ -18,7 +18,7 @@ left: 0;
 right: 0;
 top: 131px;
 bottom: 4462px; 
-    background-image: url('/images/Hero-bg.png');
+    background-image: url('./images/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -164,10 +164,18 @@ align-items: center;
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
-footer input[type="text"], footer input[type="submit"]{
-    width:auto;
+footer input[type="text"]{
+    width: 548px;;
     height:auto;
     border-radius: 5px;
     display:inline;
     padding: 10px 20px;
+}
+footer input[type="submit"]{
+    width: auto;
+    height:auto;
+    border-radius: 5px;
+    display:inline;
+    padding: 10px 20px;
+
 }
