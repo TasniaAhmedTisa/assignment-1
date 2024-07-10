@@ -164,9 +164,24 @@ align-items: center;
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
+.footer-content{
+    margin:0 auto;
+    width: 1480px;
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+    padding: 40px;
+    background-image: url('./images/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 footer input[type="text"]{
     width: 548px;;
     height:auto;
+    margin-bottom: 20px;
     border-radius: 5px;
     display:inline;
     padding: 10px 20px;
